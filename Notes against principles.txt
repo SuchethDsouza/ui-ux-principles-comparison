@@ -1,0 +1,11 @@
+DisasterMart — classroom demonstration
+
+Open index.html in any modern browser. No installation, network connection, or build step is required.
+Optional: python -m http.server 8000 --directory disastermart
+Then open http://localhost:8000
+
+Demo flow: add products, inspect cart, change quantities, begin checkout, complete survey, enter fictional details, confirm, wait four seconds. Registration and newsletter simulate validation only. Search is deliberately located below ads on the right (below products on mobile).
+
+No real accounts, payments, shipping, or subscriptions. Inputs remain in browser memory only and are not transmitted or persisted. Use invented details. Product artwork is embedded SVG with emoji, which may look different by operating system.
+
+Safety: slow motion instead of rapid flashes; Stop the Chaos disables motion and automatic promotional popups. Reduced-motion browser preference is respected. Keyboard interaction is retained rather than deliberately trapping users. The bottom section lists mistakes for your presentation.
