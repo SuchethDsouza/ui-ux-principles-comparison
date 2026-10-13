@@ -1,0 +1,21 @@
+DisasterMart — redesigned runnable storefront
+
+Run: extract this package and open index.html in a modern browser.
+No build, installation, internet connection, or dependencies are required.
+Optional local server: python -m http.server 8000 --directory disastermart-redesign
+
+Features: responsive storefront, search, categories, price/name sorting,
+product detail dialogs, editable cart, guest checkout with inline validation,
+itemized cost summary, preserved form entries when returning to the cart,
+and simulated order confirmation.
+
+Important: this is a fictional demonstration, not a production commerce system.
+No payments, shipments, subscriptions, or real orders are processed.
+Use invented contact/address details only. No data is sent to a server.
+Cart and form values stay in page memory; refresh clears them.
+Product specifications absent from the original demonstration are not invented.
+Taxes are not calculated. Demo shipping is $7.13 per nonempty order.
+
+For production, implement a secure commerce backend, actual inventory and
+product content, shipping and tax services, genuine policies, payment provider,
+server-side price/quantity validation, and order confirmations.
